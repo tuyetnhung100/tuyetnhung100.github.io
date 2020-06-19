@@ -30,7 +30,7 @@ p {
 /* Links */
 
 a {
-  color: #1abc9c;
+  color: #eb608d;
   word-wrap: break-word;
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
   -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -130,12 +130,12 @@ By default, top navigation bar uses "fixed" position
 }
 
 #section-topbar ul#nav .active a {
-  background: #44bbaa;
+  background: #eb608d;
   border-left: 1px solid #111;
 }
 
 #section-topbar ul#nav .active a:hover {
-  background: #44bbaa;
+  background: #eb608d;
 }
 
 #section-topbar i {
@@ -149,7 +149,7 @@ SECTION WRAPS
 /* Header Wrap */
 
 #headerwrap {
-  background: url(tuyetnhung100.github.io/img/IMG_1502.JPG) no-repeat center top;
+  background: url("../img/IMG_1502.JPG") no-repeat center top;
   margin-top: 60px;
   padding-top: 140px;
   text-align: center;
@@ -229,7 +229,7 @@ SECTION WRAPS
 
 #footwrap i {
   padding-right: 8px;
-  color: #1abc9c;
+  color: #eb608d;
 }
 
 /* Copyright Wrap */

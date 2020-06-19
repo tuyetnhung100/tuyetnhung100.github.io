@@ -18,10 +18,10 @@ jQuery(document).ready(function( $ ) {
     interval: 3500
   });
 
-  // JavaScript Chart
+  // Sql Chart
   var doughnutData = [{
       value: 70,
-      color: "#1abc9c"
+      color: "#eb608d"
     },
     {
       value: 30,
@@ -30,10 +30,10 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("sql").getContext("2d")).Doughnut(doughnutData);
 
-  // Bootstrap Chart
+  // C Chart
   var doughnutData = [{
-    value: 90,
-    color: "#1abc9c"
+    value: 70,
+    color: "#eb608d"
   },
   {
     value: 10,
@@ -42,10 +42,10 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("c").getContext("2d")).Doughnut(doughnutData);
 
-  // WordPress Chart
+  // C++ Chart
   var doughnutData = [{
     value: 65,
-    color: "#1abc9c"
+    color: "#eb608d"
   },
   {
     value: 35,
@@ -57,7 +57,7 @@ jQuery(document).ready(function( $ ) {
   // HTML Chart
   var doughnutData = [{
     value: 80,
-    color: "#1abc9c"
+    color: "#eb608d"
   },
   {
     value: 20,
@@ -66,10 +66,10 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
 
-  // Photoshop Chart
+  // C# Chart
   var doughnutData = [{
     value: 70,
-    color: "#1abc9c"
+    color: "#eb608d"
   },
   {
     value: 30,
@@ -78,10 +78,10 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("c#").getContext("2d")).Doughnut(doughnutData);
 
-  // Illustrator Chart
+  // Asp.net Chart
   var doughnutData = [{
     value: 50,
-    color: "#1abc9c"
+    color: "#eb608d"
   },
   {
     value: 50,
